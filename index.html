@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fintech Nexa</title>
+    <link rel="shortcut icon" href="./assets/images/fav-icon.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <h1>
+                <img class="logo" src="./assets/images/nexa-logo.png" alt="">
+            </h1>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto me-4 mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="banners banner-1 d-flex justify-content-center flex-column text-center">
+            <div class="banners-titulo roxo-claro py-5">
+                <h2 class="fw-bold text-light">Tenha uma ótima experiência com a Nexa</h2>
+                <p class="text-light">Oferecemos uma navegação muito simples e intuitiva no aplicativo.</p>
+            </div>
+        </section>
+
+        <section class="py-5">
+            <h2 class="text-center fw-bold pb-1">Nossos serviços</h2>
+
+            <div class="container d-flex justify-content-around flex-wrap">
+
+                <div class="card m-4" style="width: 20rem;">
+                    <img src="./assets/images/chatbot.jpg" class="card-img-top"
+                        alt="display que simula uma conversa com chatbot">
+                    <div class="card-body">
+                        <h5 class="card-title py-2 fw-bold">ChatBot</h5>
+                        <p class="card-text">Com a nossa nova tecnologia você pode conversar com o nosso chatbot! Que te
+                            ajuda a fazer as melhores escolhas de investimento ou tirar suas dúvidas sobre o mundo dos
+                            negócios.</p>
+                        <a href="#" class="btn botao-padrao w-100 fw-bold" data-bs-toggle="offcanvas"
+                            data-bs-target="#canvas-1" aria-controls="offcanvasRight">Quero detalhes</a>
+                    </div>
+                </div>
+
+                <div class="card m-4" style="width: 20rem;">
+                    <img src="./assets/images/investimento.jpg" class="card-img-top" alt="mulher segurando o celular">
+                    <div class="card-body">
+                        <h5 class="card-title  fw-bold">Investimento</h5>
+                        <p class="card-text">Aqui você pode escolher qual investimento é o mais interessante para você.
+                        </p>
+                        <a href="#" class="btn botao-padrao w-100 fw-bold mt-3" data-bs-toggle="offcanvas"
+                            data-bs-target="#canvas-2" aria-controls="offcanvasRight">Quero detalhes</a>
+                    </div>
+                </div>
+
+                <div class="card m-4" style="width: 20rem;">
+                    <img src="./assets/images/carrinho.jpg" class="card-img-top"
+                        alt="carrinho de compras com dinheiro dentro">
+                    <div class="card-body">
+                        <h5 class="card-title  fw-bold">Gerenciamento</h5>
+                        <p class="card-text">Nunca foi tão simples cuidar do seu patrimônio de forma digital! Com o
+                            nosso serviço você pode ter total controle da sua conta.</p>
+                        <a href="#" class="btn botao-padrao w-100 fw-bold mt-3" data-bs-toggle="offcanvas"
+                            data-bs-target="#canvas-3" aria-controls="offcanvasRight">Quero detalhes</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="banners banner-2 d-flex justify-content-center flex-column text-center">
+            <div class="banners-titulo roxo-claro py-5">
+                <h2 class="fw-bold text-light">Inovação e tecnologia</h2>
+                <p class="text-light">Estamos sempre abertos para inovar e proporcionar atualizações cada vez melhores.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <section class="py-4 container">
+        <div class="row">
+            <div class="col-10 col-xl-8 mx-auto">
+                <div class="border border-2 rounded p-3">
+                    <h3 class="fw-bold p-3">Entre em contato!</h3>
+                    <form id="contato">
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="floatingNome" placeholder="Nome">
+                            <label for="floatingNome">Nome</label>
+                        </div>
+
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="floatingEmail" placeholder="E-mail">
+                            <label for="floatingEmail">E-mail</label>
+                        </div>
+
+                        <div class="form-floating mb-3">
+                            <input type="number" class="form-control" id="floatingTelefone" placeholder="Telefone">
+                            <label for="floatingTelefone">Telefone</label>
+                        </div>
+
+                        <select class="form-select mb-3" aria-label="Default select example">
+                            <option selected>Preferência de contato:</option>
+                            <option value="1">WhatsApp</option>
+                            <option value="2">E-mail</option>
+                            <option value="3">Ligação</option>
+                        </select>
+
+                        <label for="nivel-satisfacao" class="form-label fw-bold">Nível de Satisfação</label>
+                        <input type="range" class="form-range input-range" id="nivel-satisfacao">
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="checkChecked" checked>
+                            <label class="form-check-label" for="checkChecked">
+                                Deseja receber novidades por e-mail?
+                            </label>
+                        </div>
+
+                        <button type="button" class="btn roxo-claro w-100 fw-bold py-3 mt-3">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-center roxo-claro text-light">
+        <div class="p-3" >
+            2025 <i class="bi bi-c-circle"></i> Desenvolvido por Kawan | Projeto fintech Nexa.
+        </div>
+
+    </footer>
+
+    <!-- canvas 1 -->
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="canvas-1" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasRightLabel">ChatBot</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button roxo-claro" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Inteligente
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Nosso ChatBot é uma IA em constante evolução que te ajuda no mundo dos negócios!
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed roxo-claro" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Dicas
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Ele pode te ajudar a fazer investimento até passar dicas de como gerir bem o seu dinheiro.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- canvas 2 -->
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="canvas-2" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasRightLabel">Investimentos</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button roxo-claro" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Começando
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Nossos investimentos são ótimos para quem está começando a investir pela primeira vez.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed roxo-claro" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Fácil
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Investir nunca foi tão fácil antes no nosso aplicativo!
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- canvas 3 -->
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="canvas-3" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasRightLabel">Gerenciamento</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button roxo-claro" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Controle
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Tenha total controle dos seus gastos e ganhos do últimos meses através do app.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed roxo-claro" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Transparência
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            De uma forma muito simples você tem tudo na palma da sua mão!
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
